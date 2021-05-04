@@ -1,0 +1,98 @@
+* { 
+    margin:0; 
+    padding:0
+} 
+
+#box { 
+    width: 5rem; 
+    height: 5rem; 
+    background-color: #f35e5e;
+} 
+
+.testPage{ 
+    height: 85vh; 
+    width: 100vw; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+}   
+
+#test { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    height: 100%; 
+    width:100%
+}
+
+#box, 
+input { 
+    margin:1rem
+} 
+
+.fakeCanvas { 
+    height:50vh;
+    width:80vw; 
+    border: 1px solid black
+} 
+
+.circle { 
+    border-radius: 100%; 
+    border:1px solid #252120; 
+    height: 3rem; 
+    width: 3rem; 
+    margin:0.2rem;
+} 
+
+#colorHolder{ 
+    display:flex;  
+    overflow: auto; 
+    width:14rem; 
+    overflow-x: hidden;
+
+}  
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  } 
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  } 
+
+  .colorOptions{ 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      transition: 0.5s;
+  } 
+
+  .circle:hover { 
+      transform:scale(1.1)
+  } 
+
+  .wrapper {
+	height: 800px;
+	width: 800px;
+} 
+
+.container { 
+    border:1px solid black; 
+    overflow:hidden;  
+    height: 50%;  
+    width:60%;
+}
+
+
+
