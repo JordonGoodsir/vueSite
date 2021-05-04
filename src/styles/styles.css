@@ -92,7 +92,19 @@ input {
     overflow:hidden;  
     height: 50%;  
     width:60%;
-}
+} 
+
+.aiSvg {
+    stroke-dasharray: 25000;
+    stroke-dashoffset: 25000;
+    animation: dash 5s linear forwards;
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
 
 
 
